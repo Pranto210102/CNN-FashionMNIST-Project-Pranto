@@ -5,26 +5,28 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 After training on a standard benchmark dataset, the model is evaluated on real-world images captured using a smartphone to analyze model generalization and domain shift.
 The complete workflow is fully automated and reproducible using Google Colab and GitHub.
 
-# Repository Structure
-CNN-FashionMNIST-Project-Pranto/
-├── 210102.ipynb # Complete Google Colab notebook
-├── kaggle_data/ # Fashion-MNIST dataset (CSV, Git LFS)
-│ ├── fashion-mnist_train.csv
-│ └── fashion-mnist_test.csv
-├── dataset/ # Real-world phone images
-│ ├── bag1.jpg
-│ ├── bag2.jpg
-│ ├── sandal1.jpg
-│ ├── shirt1.jpg
-│ ├── shirt2.jpg
-│ ├── sneaker1.jpg
-│ ├── trouser1.jpg
-│ └── trouser2.jpg
-├── model/
-│ └── 210102.pth # Trained CNN model (state_dict)
-├── results/
-│ └── phone_predictions.png # Real-world prediction visualization
-└── README.md
+## Repository Structure
+
+    CNN-FashionMNIST-Project-Pranto/
+    ├── 210102.ipynb                 # Complete Google Colab notebook
+    ├── kaggle_data/                 # Fashion-MNIST dataset (CSV, Git LFS)
+    │   ├── fashion-mnist_train.csv
+    │   └── fashion-mnist_test.csv
+    ├── dataset/                     # Real-world phone images
+    │   ├── bag1.jpg
+    │   ├── bag2.jpg
+    │   ├── sandal1.jpg
+    │   ├── shirt1.jpg
+    │   ├── shirt2.jpg
+    │   ├── sneaker1.jpg
+    │   ├── trouser1.jpg
+    │   └── trouser2.jpg
+    ├── model/
+    │   └── 210102.pth               # Trained CNN model (state_dict)
+    ├── results/
+    │   └── phone_predictions.png    # Real-world prediction visualization
+    └── README.md
+
 
 # Dataset Description
 Standard Dataset (Training & Testing)
