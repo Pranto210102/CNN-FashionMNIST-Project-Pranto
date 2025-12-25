@@ -144,6 +144,8 @@ This behavior highlights the limitations of models trained on synthetic datasets
 
 ![Training Accuracy](results/training_accuracy.png)
 
+![Phone Predictions](results/phone_predict.png)
+
 ## How to Run the Project
 
 Open 210102.ipynb from GitHub
