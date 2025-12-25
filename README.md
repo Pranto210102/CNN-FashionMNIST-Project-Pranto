@@ -119,14 +119,14 @@ The notebook executes all steps automatically when Run All is selected in Colab.
 The confusion matrix shows strong diagonal dominance, indicating good classification performance on the standard test dataset.
 Most misclassifications occur between visually similar classes such as Shirt and T-shirt/top, which is expected for Fashion-MNIST.
 
-## Real-World Phone Image Predictions
+## 📸 Real-World Phone Image Predictions
 
-The trained CNN is evaluated on real-world phone images using the same preprocessing pipeline as the training data (grayscale conversion, resizing, normalization).
+The trained CNN was tested on real-world images captured using a smartphone.  
+The same preprocessing pipeline (grayscale conversion, resizing, normalization) was applied.
 
-## Prediction Results
+> **Note:** The percentage shown below each image represents the model’s confidence (softmax probability), not real-world accuracy.
 
-Important: The percentage shown below each image represents the model’s confidence (softmax probability) for the predicted class.
-It should not be interpreted as real-world accuracy.
+![Phone Predictions](results/phone_predictions.png)
 
 ## Accuracy vs Confidence (Important Clarification)
 
