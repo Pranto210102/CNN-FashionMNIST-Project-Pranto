@@ -1,6 +1,6 @@
 # CNN-FashionMNIST-Project-Pranto
 
-# Project Overview
+## Project Overview
 This project implements a Convolutional Neural Network (CNN) using PyTorch to classify fashion items from the Fashion-MNIST dataset.
 After training on a standard benchmark dataset, the model is evaluated on real-world images captured using a smartphone to analyze model generalization and domain shift.
 The complete workflow is fully automated and reproducible using Google Colab and GitHub.
@@ -28,10 +28,10 @@ The complete workflow is fully automated and reproducible using Google Colab and
     └── README.md
 
 
-# Dataset Description
+## Dataset Description
 Standard Dataset (Training & Testing)
 
-# Fashion-MNIST
+## Fashion-MNIST
 
 60,000 training images
 
@@ -67,7 +67,7 @@ Real-World Dataset (Phone Images)
 
 Images captured using a smartphone
 
-# Objects include:
+## Objects include:
 
         Shirt
         
@@ -85,7 +85,7 @@ These images are not used for training, only for testing generalization.
 
 CNN Model Architecture
 
-# The CNN model consists of:
+## The CNN model consists of:
 
 Convolutional Layer (Conv2D + ReLU)
 
@@ -98,11 +98,11 @@ Fully Connected Layers
 Output layer with 10 neurons (one per class)
 
 Loss Function: CrossEntropyLoss
-# Optimizer: Adam
+## Optimizer: Adam
 
 The model is implemented using torch.nn.Module.
 
-# Training & Evaluation
+## Training & Evaluation
 
 The model is trained for multiple epochs on Fashion-MNIST
 
@@ -114,21 +114,21 @@ A confusion matrix is generated to analyze class-wise performance
 
 The notebook executes all steps automatically when Run All is selected in Colab.
 
-# Confusion Matrix (Fashion-MNIST Test Set)
+## Confusion Matrix (Fashion-MNIST Test Set)
 
 The confusion matrix shows strong diagonal dominance, indicating good classification performance on the standard test dataset.
 Most misclassifications occur between visually similar classes such as Shirt and T-shirt/top, which is expected for Fashion-MNIST.
 
-#Real-World Phone Image Predictions
+## Real-World Phone Image Predictions
 
 The trained CNN is evaluated on real-world phone images using the same preprocessing pipeline as the training data (grayscale conversion, resizing, normalization).
 
-# Prediction Results
+## Prediction Results
 
 Important: The percentage shown below each image represents the model’s confidence (softmax probability) for the predicted class.
 It should not be interpreted as real-world accuracy.
 
-# Accuracy vs Confidence (Important Clarification)
+## Accuracy vs Confidence (Important Clarification)
 
 The confidence values shown for real-world images are derived from the softmax output of the CNN and indicate how confident the model is in its prediction, not whether the prediction is correct.
 
@@ -140,7 +140,7 @@ Real photographs containing complex backgrounds, lighting, shadows, and textures
 
 This behavior highlights the limitations of models trained on synthetic datasets when applied to real-world data.
 
-# How to Run the Project
+## How to Run the Project
 
 Open 210102.ipynb from GitHub
 
@@ -148,7 +148,7 @@ Click Open in Colab
 
 Select Runtime → Run all
 
-# The notebook will:
+## The notebook will:
 
 Clone the repository
 
@@ -176,7 +176,7 @@ Using GitHub and Google Colab for reproducible ML workflows
 
 # Author
 
-# Pranto Bala
+## Pranto Bala
 
 Department of Computer Science & Engineering, Jashore University of Science and Technology
 
