@@ -127,7 +127,6 @@ The same preprocessing pipeline (grayscale conversion, resizing, normalization) 
 
 > **Note:** The percentage shown below each image represents the model’s confidence (softmax probability), not real-world accuracy.
 
-![Phone Predictions](results/phone_predictions.png)
 
 ![Training Loss](results/training_loss.png)
 
