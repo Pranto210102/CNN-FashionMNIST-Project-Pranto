@@ -16,19 +16,12 @@ CNN-FashionMNIST-Project-Pranto/
 │
 ├── dataset/                     # Real-world phone images
 │   ├── bag1.jpg
-
 │   ├── bag2.jpg
-
 │   ├── sandal1.jpg
-
 │   ├── shirt1.jpg
-
 │   ├── shirt2.jpg
-
 │   ├── sneaker1.jpg
-
 │   ├── trouser1.jpg
-
 │   └── trouser2.jpg
 │
 ├── model/
