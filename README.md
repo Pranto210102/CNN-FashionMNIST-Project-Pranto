@@ -16,12 +16,19 @@ CNN-FashionMNIST-Project-Pranto/
 │
 ├── dataset/                     # Real-world phone images
 │   ├── bag1.jpg
+
 │   ├── bag2.jpg
+
 │   ├── sandal1.jpg
+
 │   ├── shirt1.jpg
+
 │   ├── shirt2.jpg
+
 │   ├── sneaker1.jpg
+
 │   ├── trouser1.jpg
+
 │   └── trouser2.jpg
 │
 ├── model/
@@ -45,25 +52,25 @@ Image size: 28 × 28 grayscale
 
 10 classes:
 
-    T-shirt/top
-    
-    Trouser
-    
-    Pullover
-    
-    Dress
-    
-    Coat
-    
-    Sandal
-    
-    Shirt
-    
-    Sneaker
-    
-    Bag
-    
-    Ankle boot
+        T-shirt/top
+        
+        Trouser
+        
+        Pullover
+        
+        Dress
+        
+        Coat
+        
+        Sandal
+        
+        Shirt
+        
+        Sneaker
+        
+        Bag
+        
+        Ankle boot
 
 The dataset is loaded automatically from CSV files stored in the repository using Git LFS.
 
@@ -73,15 +80,15 @@ Images captured using a smartphone
 
 # Objects include:
 
-Shirt
-
-Trouser
-
-Sneaker
-
-Sandal
-
-Bag
+        Shirt
+        
+        Trouser
+        
+        Sneaker
+        
+        Sandal
+        
+        Bag
 
 Images are resized and converted to grayscale to match Fashion-MNIST format
 
@@ -180,7 +187,8 @@ Using GitHub and Google Colab for reproducible ML workflows
 
 # Author
 
-Pranto Bala
+# Pranto Bala
+
 Department of Computer Science & Engineering, Jashore University of Science and Technology
 
 GitHub Repository: This repository
